@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Connect | Rohit Jangir</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/connect.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="images/logo.png" alt="Rohit Jangir" class="logo">
+        <button class="connect-btn" onclick="openModal()">Connect</button>
+    </header>
+
+    <section class="contact-hero">
+        <h1>GET IN TOUCH</h1>
+        <p>
+            Have a question, proposal, or just want to connect?
+            I'd love to hear from you. Let's explore how we can work together.
+        </p>
+    </section>
+
+    <div class="modal-overlay" id="modal">
+        <div class="connect-card">
+            <span class="close-btn" onclick="closeModal()">×</span>
+
+            <h2>Connect with us</h2>
+            <p class="subtitle">Stay up to date with all the latest from us.</p>
+
+            <form class="connect-form">
+                <label>Name*</label>
+                <input type="text" required>
+
+                <label>Email*</label>
+                <input type="email" required>
+
+                <label>Purpose*</label>
+                <input type="text" required>
+
+                <label>Message*</label>
+                <textarea rows="3" required></textarea>
+
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="cta-section">
+        <h2>Ready to Take Your Business to the Next Level?</h2>
+        <p>Book a mentorship session today and get the guidance you need to succeed.</p>
+
+        <div class="cta-buttons">
+            <a href="pitch.html" class="btn-primary">Pitch Your Idea</a>
+            <a href="#" class="btn-outline">Book Mentorship</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h4>Rohit Jangir</h4>
+                <p>Building Businesses,<br>Empowering Entrepreneurs.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a>About</a>
+                <a>Ventures</a>
+                <a>Pitch</a>
+                <a>Services</a>
+            </div>
+            <div>
+                <h4>Opportunities</h4>
+                <a>Pitch Your Ideas</a>
+                <a>Book Consultation</a>
+                <a>Collaborate</a>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <p>connect@rohitkumar.in</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS
+    <script>
+        function openModal() {
+            document.getElementById("modal").classList.add("active");
+        }
+
+        function closeModal() {
+            document.getElementById("modal").classList.remove("active");
+        }
+    </script> -->
+
+</body>
+
+</html>
